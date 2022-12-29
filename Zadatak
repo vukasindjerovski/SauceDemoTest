@@ -1,0 +1,23 @@
+TEST CASE 1:
+- open url https://www.saucedemo.com/
+- Login with valid user and password (standard_user/secret_sauce)
+- Verify following web elements are present on the products home page:
+    - "PRODUCTS" header
+    - shopping cart
+    - burger menu in the upper left corner
+    - Twitter, Facebook, Linkedin links
+    - Logout
+
+TEST CASE 2:
+- open url https://www.saucedemo.com/
+- Login with valid user and password (standard_user/secret_sauce)
+- Click on the "Sauce Labs Backpack" item
+    - verify title, description and price of this item
+    - click on the button "ADD TO CART"
+- Click on the button "BACK TO PRODUCTS"
+- From product home page click "ADD TO CART" button for "Sauce Labs Fleece Jacket" item
+- Click on the "Shopping Cart" button to open Shopping Cart page
+- Click on the "Checkout" button to continue with order
+- Enter Firstname, Lastname, Zipcode and click on Finish button
+- Verify "THANK YOU FOR YOUR ORDER" is displayed
+- Logout
